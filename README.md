@@ -14,6 +14,9 @@ pacchetto_installazione_win32
 +	
 +	ATTENZIONE: installare ogni pacchetto con spuntata l�opzione Tutti gli utenti quando presente.
 +	
+Scaricate il pacchetto (240 mb) dal Dropbox di pyArchInit da questo link: https://www.dropbox.com/sh/3eqrb5vstee56rl/JTH0BTAr4z
+
++	
 +	##############   Step 1   
 +	AL momento � necessario avere la seguente installazione
 +	
