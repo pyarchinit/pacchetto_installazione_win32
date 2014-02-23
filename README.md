@@ -87,6 +87,7 @@ Spuntate la prima Flag Usa variabili utente
 e dopo aver cliccato su aggiungi
 Inserite nella riga i seguenti valori
 Prima colonna  |Seconda colonna  |Terza Colonna
+
 Accoda         |Path             |;C:\Program Files (x86)\Graphviz2.30\bin
 
 ATTENZIONE IL PERCORSO PUO' VARIARE IN BASE ALLA VOSTRA MACCHINA E AL SISTEMA OPERATIVO INSTALLATO. Qui siamo sotto Windows 7.
