@@ -74,7 +74,7 @@ Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGI
 ##############   Step 8   
 Installate sqlalchemy (File 7)
 
-Andate nell'installazione di python nella cartella "C:\Python27\Lib\site-packages" e copiate sia la cartella sqlalchemy che l eventuale cartella sqlalchemy_nose che il file sqlalchemy.x.x.EGG-INFO
+Andate nell'installazione di python nella cartella "C:\Python27\Lib\site-packages" e copiate sia la cartella sqlalchemy che l eventuale cartella sqlalchemy_nose che la cartella sqlalchemy.x.x.EGG-INFO
 Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" e incollate dentro i files di sqlalcehmy appena copiati
 
 ##############   Step 9   
