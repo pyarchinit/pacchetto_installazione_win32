@@ -83,10 +83,13 @@ Aprite Qgis 2.0
 Andate a Impostazioni-> Opzioni->Sistema:
 in questo modo:
 
-Spuntate la prima Flag Usa variabili utente
-e dopo aver cliccato su aggiungi
+Spuntate la prima Flag Usa variabili utente e dopo aver cliccato su aggiungi
+
 Inserite nella riga i seguenti valori
+
+
 Prima colonna  |Seconda colonna  |Terza Colonna
+
 
 Accoda         |Path             |;C:\Program Files (x86)\Graphviz2.30\bin
 
