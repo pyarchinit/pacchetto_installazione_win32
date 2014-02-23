@@ -87,6 +87,7 @@ Spuntate la prima Flag Usa variabili utente e dopo aver cliccato su aggiungi
 
 Inserite nella riga i seguenti valori
 
+ATTENZIONE SEGUITE CORRETTAMENTE IL TIPO DI CARATTERI RISPETTANDO MAIUSCOLE e minuscole
 
 Prima colonna  |Seconda colonna  |Terza Colonna
 
