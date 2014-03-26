@@ -14,23 +14,23 @@ ATTENZIONE: installare ogni pacchetto con spuntata l'opzione Tutti gli utenti qu
 Scaricate il pacchetto (240 mb) dal Dropbox di pyArchInit da questo link: https://www.dropbox.com/sh/3eqrb5vstee56rl/JTH0BTAr4z
 
 
-##############   Step 1   
+##############   Step 1   (saltate questo passaggio se avete installato la versione per OSGEO4W)
 AL momento è  necessario avere la seguente installazione
-Qgis Dufour da All in one Installer 32 bit (x86) (File 1)
+Qgis Dufour da All in one Installer 32 bit (x86) (File 1) 
 
 
 ##############   Step 2   
 Una volta istallato QGis sarà necessario installare Python27 dall'installer a 32bit (File 2)
 
 ##############   Step 3   
-Verificare prima se dentro alla cartella "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages"  della vostra installazione Qgis sia gi  presente networkx (al 100% si!!!)
+Verificare prima se dentro alla cartella "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") della vostra installazione Qgis sia gi  presente networkx (al 100% si!!!)
 
 Se fosse già presente, non sarà necessario installare Networkx e potete passare allo step 5 altrimenti lanciate  l'installer di networkx (File 3)
 
 ##############   Step 4   
 Andate nell'installazione di python nella cartella "C:\Python27\Lib\site-packages" e copiate sia la cartella networkx che il file networkx.x.x.EGG.
 
-Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" e incollate dentro i files di networkx appena copiati
+Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") e incollate dentro i files di networkx appena copiati
 
 ##############   Step 5   
 Installate Graphviz (Versione raccomandata  2.30) (File 4)
@@ -41,14 +41,14 @@ Installate pygraphviz (Versione raccomandata 1.2) (File 5)
 
 Andate nell'installazione di python nella cartella "C:\Python27\Lib\site-packages\" e copiate sia la cartella  pygraphviz che il file pygraphviz.x.x.EGG o EGG-INFO
 
-Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages\pygraphviz\" e incollate dentro i files di pygraphviz appena copiati
+Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages\pygraphviz\" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") e incollate dentro i files di pygraphviz appena copiati
 
 APPLICAZIONE DELLA PATCH PER IL SISTEMA DI MATRIX INTERATTIVO (al 100% non più necessaria!!!)
 
 E' necessario aggiungere questa patch nel codice seguendo le istruzioni:
 
 andate sotto
- "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages\pygraphviz\" e individuate il file agraph.py. Apritelo con un editor di testo (wordpad) e cercate la stringa: runprog=self._get_prog(prog) se non è presente chiudete tutto e proseguite.
+ "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages\pygraphviz\" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") e individuate il file agraph.py. Apritelo con un editor di testo (wordpad) e cercate la stringa: runprog=self._get_prog(prog) se non è presente chiudete tutto e proseguite.
  
 ATTENZIONE: E' possibile che il vostro installer di pygraphviz abbia già la patch applicata.
 In questo caso saltate allo step 7
@@ -69,13 +69,13 @@ Installate reportlab (File 6)
 Andate nell'installazione di python nella cartella "C:\Python27\Lib\site-packages" e copiate sia la cartella 
 repotlab che il file reportlab.x.x.EGG.
 
-Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" e incollate dentro i files di reportlab appena copiati
+Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") e incollate dentro i files di reportlab appena copiati
 
 ##############   Step 8   
 Installate sqlalchemy (File 7)
 
 Andate nell'installazione di python nella cartella "C:\Python27\Lib\site-packages" e copiate sia la cartella sqlalchemy che l eventuale cartella sqlalchemy_nose che la cartella sqlalchemy.x.x.EGG-INFO
-Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" e incollate dentro i files di sqlalcehmy appena copiati
+Spostatevi nell'installazione python del vostro QGis "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") e incollate dentro i files di sqlalcehmy appena copiati
 
 ##############   Step 9   
 Aprite Qgis 2.0
@@ -96,8 +96,15 @@ Accoda         |Path             |;C:\Program Files (x86)\Graphviz2.30\bin
 
 ATTENZIONE IL PERCORSO PUO' VARIARE IN BASE ALLA VOSTRA MACCHINA E AL SISTEMA OPERATIVO INSTALLATO. Qui siamo sotto Windows 7.
 
-##############   Step 10  
-Se avete già  installato altri plugin potete passare allo Step 11
+
+##############   Step 10
+Per installare la versione corrente aprite Qgis e dal plugin installer cercate pyarchinit e installatelo. Riavviate Qgis prima di usare pyArchInit!!!
+Buon lavoro
+
+############################ OPPURE ##########################################
+
+##############   Step 11  
+Nel caso voleste installare una versione in corso di sviluppo direttamente da sorgente. Se avete già  installato altri plugin potete passare allo Step 12
 
 Per la seguente procedura dovete avere una rete con collegamento Internet attivo!
 Se siete alla prima installazione di Qgis, aprite Qgis 2.0, andate sotto Plugins->Gestisci e installa plugin...
@@ -108,13 +115,13 @@ Chiudete QGis
 
 
 
-##############   Step 11   
+##############   Step 12   
 Andate su https://github.com/pyarchinit/pyarchinit_beta_test_dev e dal pulsante download scaricate il plugin, scompattate lo zip, estraete il plugin pyarchinit_devxxxxxx e rinominate la cartella in pyarchinit.
 Copiate la cartella appena rinominata in pyarchinit nella cartella C:\users\vostro_utente\.qgis2\python\plugins 
 
 
 
-##############   Step 12   
+##############   Step 13   
 Avviate QGis e il plugin dovrebbe essere pronto all'uso. Fate riferimento alla documentazione in rete sul sito ufficiale di pyarchinit:
 https://sites.google.com/site/pyarchinit/documentazione (Al momento in revisione)
 
