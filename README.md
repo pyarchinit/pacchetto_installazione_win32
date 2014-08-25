@@ -1,6 +1,8 @@
-pacchetto_installazione_win32
+pacchetto_installazione_win32 - se volete provare pyArchInit. La versione non include l'uso di versioni successive di Qgis
 =============================
 Questo è il nuovo sistema sperimentale per Qgis 2 Dufour All in One Installer Per Windows 7 SOLO A 32bit
+
+
 
 I files presenti sono presi da
 http://www.lfd.uci.edu/~gohlke/pythonlibs/
