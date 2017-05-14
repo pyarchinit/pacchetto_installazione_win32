@@ -22,7 +22,7 @@ Qgis Dufour da All in one Installer 32 bit (x86) (File 1)
 
 
 ##############   Step 2   
-Una volta istallato QGis sarà necessario installare Python27 dall'installer a 32bit (File 2)
+Una volta installato QGis sarà necessario installare Python27 dall'installer a 32bit (File 2)
 
 ##############   Step 3   
 Verificare prima se dentro alla cartella "C:\Program Files (x86)\QGIS Dufour\apps\Python27\Lib\site-packages" (se avete installato la versione OSGEO4W il percorso sarà: "C:\OSGEO4W\apps\Python27\Lib\site-packages") della vostra installazione Qgis sia gi  presente networkx (al 100% si!!!)
